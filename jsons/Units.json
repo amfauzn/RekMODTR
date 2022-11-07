@@ -1,0 +1,43 @@
+[	
+	{
+		"name": "Landsknecht",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+					"Can move immediately once bought", 
+					"Only available <after adopting [Mercenary Army]>",
+					"Never appears as a Barbarian unit"],
+		"upgradesTo": "Lancer",
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Caravan", 
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 75,
+		"requiredResource": "Trade Route (Count)",
+		"uniques": ["Can construct [Land Trade Route (Food)]",
+					"Can construct [Land Trade Route (Production)]",
+					"Can construct [Land Trade Route (Gold)]",
+					"Consumes [1] [Trade Route]",
+					"Uncapturable"],
+		"requiredTech": "Animal Husbandry"
+	},
+	{
+		"name": "Cargo Ship", 
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 75,
+		"requiredResource": "Trade Route (Count)",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
+					"Can construct [Sea Trade Route (Food)]",
+					"Can construct [Sea Trade Route (Production)]",
+					"Can construct [Sea Trade Route (Gold)]",
+					"Consumes [1] [Trade Route]",
+					"Uncapturable"],
+		"requiredTech": "Sailing"
+	},
+]

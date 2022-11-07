@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Land Trade Route (Food)",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	},
+	{
+		"name": "Land Trade Route (Production)",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	},
+	{
+		"name": "Land Trade Route (Gold)",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 2,
+		"science": 2,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	},
+	{
+		"name": "Sea Trade Route (Food)",
+		"terrainsCanBeBuiltOn": ["Coast","Atoll"],
+		"food": 2,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	},
+	{
+		"name": "Sea Trade Route (Production)",
+		"terrainsCanBeBuiltOn": ["Coast","Atoll"],
+		"production": 2,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	},
+	{
+		"name": "Sea Trade Route (Gold)",
+		"terrainsCanBeBuiltOn": ["Coast","Atoll"],
+		"gold": 4,
+		"science": 2,
+		"uniques": ["Provides [-1] [Trade Route]", "Provides [-1] [Trade Route (Count)]"],
+	}
+]

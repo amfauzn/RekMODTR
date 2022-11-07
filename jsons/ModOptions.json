@@ -1,0 +1,4 @@
+{
+    "nationsToRemove":["Dublin","Edinburgh"],
+	"buildingsToRemove": ["National Treasury"],
+}

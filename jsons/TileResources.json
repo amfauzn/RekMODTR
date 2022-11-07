@@ -1,0 +1,12 @@
+[	
+	{
+		"name": "Trade Route (Count)",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Trade Route",
+		"resourceType": "Bonus",
+		"gold": 1
+	}
+]
